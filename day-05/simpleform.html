@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <aside id="sidebar"></aside>
+        <div class="container">
+            <h2>Order Form</h2>
+            <form action="proess.php" method="post">
+                <label for="grods">What would you like to buy</label><br><br>
+                <select name="pets" id="pet-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="parrot">Parrot</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
+                </select>
+                  <br><br>
+                  <label for="grods">What would you like order</label><br><br>
+                  <input type="radio" name="amount" value="1" checked> 1 - 10$ <br><br>
+                  <input type="radio" name="amount" value="2" > 2 - 20$ <br><br>
+                  <input type="radio" name="amount" value="3" > 3 - 30$ <br><br>
+                  <label for="name" >Name <sup class="text-warning">*</sup> </label><br><br>
+                  <input type="text" name="first-name" placeholder="John" required>
+                  <input type="text" name="last-name" placeholder="Wick" required> <br><br>
+                  <label for="email" >Email  </label><br><br>
+                  <input type="text" name="email" placeholder="@gmail.com" required><br><br>
+                  <label for="email" >Phone Number  </label><br><br>
+                  <input type="tel" name="tel01" size="6" > - <input type="tel" name="tel02" size="6" >
+                   - <input type="tel" name="tel03" size="6" > <br><br>
+                  <input type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
